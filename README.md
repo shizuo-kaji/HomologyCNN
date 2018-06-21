@@ -7,7 +7,7 @@ The algorithm first computes "homology images" using _persistent homology_.
 Persistent homology is a popular tool in _Topological Data Analysis_ (TDA), which captures the topology or the _shape_ of data.
 A homology image is a greyscale image of the same dimension as the input, with the generators of 1-cycles drawn with the intensity according to their lifetime (or length). 
 
-![homology image]("https://github.com/shizuo-kaji/HomologyCNN/blob/master/homology.jpg?raw=true")
+![homology image](https://github.com/shizuo-kaji/HomologyCNN/blob/master/homology.jpg?raw=true)
 
 The homology image will be bundled (as an extra channel) with the original image and fed into a CNN for classification.
 
