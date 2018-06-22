@@ -81,7 +81,8 @@ class PreprocessedDataset(dataset_mixin.DatasetMixin):
             ## stack images
             im_ch = []
             for i in range(len(filetxt)):
-                img = read_image(os.path.join(datadir,filetxt[i]))
+                col = True if i < num_im else False
+                img = read_image(os.path.join(datadir,filetxt[i]),color=col)
                 img = img * 2 / 255.0 - 1.0  # [-1, 1)
                 c,h,w=img.shape
                 # upscale if it is small
