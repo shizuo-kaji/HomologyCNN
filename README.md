@@ -68,11 +68,13 @@ We might be able to do with a smaller n by applying data augmentation.
 python mnist3d_keras.py -n 10000
 ```
 
-The results (accuracy, top-2 accuracy, per class accuracy) are shown below:
+The results (accuracy, top-2 accuracy, per class accuracy, for ten trials) are shown below:
 
+### Reduced MNIST (n=1)
 ![Reduced MNIST (n=1) Result](https://github.com/shizuo-kaji/HomologyCNN/blob/master/rmnist_total.jpg?raw=true)
 ![Reduced MNIST (n=1) Per Class Result](https://github.com/shizuo-kaji/HomologyCNN/blob/master/rmnist_class.jpg?raw=true)
 
+### 3D MNIST
 ![3D MNIST Result](https://github.com/shizuo-kaji/HomologyCNN/blob/master/3dmnist_total.jpg?raw=true)
 ![3D MNIST Per Class Result](https://github.com/shizuo-kaji/HomologyCNN/blob/master/3dmnist_class.jpg?raw=true)
 
